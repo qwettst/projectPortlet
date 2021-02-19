@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<portlet-app
+             xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd">
+
+    <portlet>
+        <description>Short description about portlet.</description>
+        <portlet-name>HelloWorldPortlet</portlet-name>
+        <display-name>HelloWorldPortlet Portlet</display-name>
+
+        <portlet-class>dev.qwett.portlet.HelloWorldPortlet</portlet-class>
+
+        <supports>
+            <mime-type>text/html</mime-type>
+            <portlet-mode>VIEW</portlet-mode>
+        </supports>
+
+        <supported-locale>en</supported-locale>
+        <portlet-info>
+            <title>Hello World Portlet</title>
+            <short-title>Hello World</short-title>
+            <keywords>Hello,pluto</keywords>
+        </portlet-info>
+
+    </portlet>
+</portlet-app>
